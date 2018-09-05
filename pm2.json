@@ -1,0 +1,15 @@
+{
+	"apps": [
+		{
+			"name": "blog",
+			"max_memory_restart": "1024M",
+			"log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
+			"script": "./server.js",
+			"env": {
+                "PORT": 3000,
+                "dbUsername": "username",
+                "dbPassword": "password"
+			}
+		}
+	]
+}
